@@ -1,6 +1,10 @@
 intellij {
     pluginName 'stepik-union'
     sandboxDirectory ideaSandboxDir
+    updateSinceUntilBuild false
+    plugins = [
+            'com.jetbrains.edu.interactivelearning:3.0'
+    ]
 }
 
 dependencies {
